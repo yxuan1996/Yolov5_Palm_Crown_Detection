@@ -1,0 +1,8 @@
+names:
+- PalmCrown
+- PalmCenter
+nc: 2
+path: ../datasets/palmcrowndetection
+test: images/test
+train: images/train
+val: images/validation
