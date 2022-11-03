@@ -102,13 +102,13 @@ In general, the inferencing speed of the models can be increased by:
 
 During testing, it was found that the nano models with smaller image sizes generated a lot of false positives. Although the nano models produced better inference speeds in terms of FPS, the trade-off degradation in precision and recall was unacceptable. Only the small model paired with 640 image size (YoloV5S_640) produced acceptable results. 
 
-![Benchmark Table](benchmarks_and_results/Benchmark Table.jpg)
+![Benchmark Table]("benchmarks_and_results/Benchmark Table.jpg")
 
 **Benchmarks for YoloV5Small**
-![Benchmark YoloV5s](benchmarks_and_results/Benchmark Chart Yolov5s.jpg)
+![Benchmark YoloV5s]("benchmarks_and_results/Benchmark Chart Yolov5s.jpg")
 
 **Benchmarks for YoloV5Nano**
-![Benchmark YoloV5n](benchmarks_and_results/Benchmark Chart Yolov5n.jpg)
+![Benchmark YoloV5n]("benchmarks_and_results/Benchmark Chart Yolov5n.jpg")
 
 ## References
 
