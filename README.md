@@ -105,9 +105,12 @@ During testing, it was found that the nano models with smaller image sizes gener
 ![Benchmark_Table](benchmarks_and_results/Benchmark_Table.jpg)
 
 **Benchmarks for YoloV5Small**
+<br/>
 ![Benchmark_YoloV5s](benchmarks_and_results/Benchmark_Chart_Yolov5s.jpg)
+<br/>
 
 **Benchmarks for YoloV5Nano**
+<br/>
 ![Benchmark_YoloV5n](benchmarks_and_results/Benchmark_Chart_Yolov5n.jpg)
 
 ## References
