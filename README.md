@@ -19,7 +19,7 @@ The data configurations are specified in the `palm_data.yaml` file
 I would like to credit and give thanks to my colleagues `Muhamad Hanif Hazemi` and `Muhammad Yusuf Musa` who flew the drone and did most of the data collection on the field. 
 
 **Example Palm Crown Image from the Dataset**
-
+![Palm Crown Image](benchmarks_and_results/DJI_0260.jpg)
 
 #### Labelling and Annotations
 YOLOv5 accepts annotations / labels in the following format:
@@ -35,6 +35,7 @@ YOLOv5 accepts annotations / labels in the following format:
 The trained models were successful in detecting palm crowns from image and video inputs. 
 
 **Inference Results**
+![Inference Results](benchmarks_and_results/val_batch0_pred.jpg)
 
 For object detection, mean average precision (mAP) is the primary metric that is used to measure model performance.
 
@@ -50,10 +51,10 @@ For the trained models, the following metrics were obtained:
 | YoloV5_Nano  | 0.91846   | 0.57329      |
 
 **Training Results for YoloV5_Small model**
-
+![Inference Results](benchmarks_and_results/Training_Results_YoloV5S.png)
 
 **Training Results for YoloV5_Nano model**
-
+![Inference Results](benchmarks_and_results/Training_Results_YoloV5N.png)
 
 
 ## Deployment on Nvidia Jetson
@@ -101,9 +102,13 @@ In general, the inferencing speed of the models can be increased by:
 
 During testing, it was found that the nano models with smaller image sizes generated a lot of false positives. Although the nano models produced better inference speeds in terms of FPS, the trade-off degradation in precision and recall was unacceptable. Only the small model paired with 640 image size (YoloV5S_640) produced acceptable results. 
 
-- benchmark table 1
-- benchmark chart small
-- benchmark chart nano
+![Inference Results](benchmarks_and_results/Benchmark Table.jpg)
+
+**Benchmarks for YoloV5Small**
+![Inference Results](benchmarks_and_results/Benchmark Chart Yolov5s.jpg)
+
+**Benchmarks for YoloV5Nano**
+![Inference Results](benchmarks_and_results/Benchmark Chart Yolov5n.jpg)
 
 ## References
 
